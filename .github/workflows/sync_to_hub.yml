@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Amrrs:$HF_TOKEN@huggingface.co/spaces/Amrrs/image-to-text-python-app +HEAD:main
+        run: git push --force https://Amrrs:$HF_TOKEN@huggingface.co/spaces/Amrrs/image-to-text-python-app main
