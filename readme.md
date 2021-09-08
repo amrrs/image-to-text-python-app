@@ -13,3 +13,4 @@ Required Libraries:
 After downloading this repo and installing the required packages run the following code to run the app
 
 `streamlit run ocr.py` 
+
